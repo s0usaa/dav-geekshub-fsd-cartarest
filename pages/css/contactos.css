@@ -1,0 +1,29 @@
+body{
+    margin-top: 6vh;
+    background-color: black;
+}
+
+.img-top{
+    height: 30vh;
+    background-image: url(../img/contacto/contacto-720x390.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.text-contact{
+    height: 100%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+.navbar-toggler{
+    background-color: white;
+}
+
+@media (min-width:700px){
+    .img-top{
+        background-image: url(../img/contacto/ContactosGrande.jpeg);
+    }
+}

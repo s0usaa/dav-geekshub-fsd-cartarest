@@ -1,0 +1,22 @@
+body{
+    background-image: url(../img/imgmain2.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-top: 10vh;
+}
+
+.main-home{
+    height: 100vh;
+    padding: 0;
+}
+
+.navbar-toggler{
+    background-color: white;
+}
+
+@media (min-width: 700px){
+    body{
+        background-image: url(../img/Fondopagprincipal.webp);
+    }
+}
